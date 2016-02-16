@@ -4,11 +4,9 @@ title: Member
 permalink: /member
 ---
 
-<ul>
-    {% for member in site.data.members %}
-    <li>
-        {{ member.name }}
-        {{ member.role }}
-    </li>
-    {% endfor %}
-</ul>
+{% for member in site.data.members %}
+<div>
+    {{ member.name }}
+    {{ member.role }}
+</div>
+{% endfor %}

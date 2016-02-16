@@ -2,22 +2,25 @@
 layout: default
 ---
 
-<div class="home">
+<style>
+  svg path {
+    stroke-dasharray: 1;
+    animation: dash 5s linear;
+    animation-iteration-count: infinite;
+  }
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 50;
+    }
+  }
+</style>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div style="text-align: center">
+  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+width="300px" height="200px" viewBox="0 0 35.854 20.688" enable-background="new 0 0 35.854 20.688" xml:space="preserve">
+<path stroke="#ff5400" stroke-width="1"
+      fill="transparent" d="M31.1,18.186l4.754-4.754l-4.832-4.828C32.677,6.143,33.645,3.183,33.645,0H26.92
+c0,4.82-3.921,8.741-8.741,8.741c-4.819,0-8.741-3.92-8.741-8.741H2.713c0,3.05,0.898,5.887,2.428,8.284L0,13.424l4.754,4.754
+l5.141-5.139c1.489,0.949,3.146,1.65,4.922,2.049v5.6h6.725v-5.602c1.649-0.367,3.195-1.006,4.602-1.854L31.1,18.186z"/>
+</svg>
 </div>
