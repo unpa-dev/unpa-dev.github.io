@@ -1,0 +1,17 @@
+#unpa-home-text {
+  text-align: center;
+  .title {
+    font-size: 18px;
+    font-weight: 600;
+    span {
+      font-size: 22px;
+    }
+  }
+}
+.team-member {
+  text-align: center;
+  padding: 36px 0;
+  &:not(:last-child) {
+    border-bottom: 1px solid #f2f2f2;
+  }
+}

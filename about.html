@@ -1,12 +1,19 @@
 ---
 layout: page
-title: Member
-permalink: /member
+title: Team
+permalink: /team
 ---
 
 {% for member in site.data.members %}
-<div>
-    {{ member.name }}
-    {{ member.role }}
+<div class="team-member">
+    <div class="name">
+        {{ member.name }}
+    </div>
+    <div class="role">
+        {{ member.role }}
+    </div>
+    <div class="message">
+        blah blah
+    </div>
 </div>
 {% endfor %}
