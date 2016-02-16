@@ -1,24 +1,40 @@
 - name: 서진원
   role: Server
+  nickname: andy
+  email: andy.seo@lycl.co.kr
 
 - name: 표희민
   role: Server
+  nickname: thomas
+  email: thomas.pyo@lycl.co.kr
 
 - name: 이대호
   role: Android
+  nickname: daeho
+  email: daeho.lee@lycl.co.kr
 
 - name: 조민영
   role: Android
+  nickname: jake
+  email: jake.jo@lycl.co.kr
 
 - name: 최원우
   role: iOS
+  nickname: wonwoo
+  email: wonwoo.choi@lycl.co.kr
 
 - name: 니콜라스
   role: iOS
+  nickname: nico
+  email: nicolas@lycl.co.kr
 
 - name: 줄리엔
   role: Web
+  nickname: julien
+  email: julien@lycl.co.kr
 
 - name: 김대기
   role: Web
+  nickname: daegi
+  email: daegi.kim@lycl.co.kr
 

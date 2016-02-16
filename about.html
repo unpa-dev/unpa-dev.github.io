@@ -1,19 +1,21 @@
 ---
-layout: page
+layout: default
 title: Team
 permalink: /team
 ---
 
 {% for member in site.data.members %}
 <div class="team-member">
+    <i class="icon ion-ios-person-outline"></i>
     <div class="name">
         {{ member.name }}
+        ({{ member.nickname }})
     </div>
     <div class="role">
         {{ member.role }}
     </div>
+    <a class="email" href="mailto:{{ member.email }}">{{ member.email }}</a>
     <div class="message">
-        blah blah
     </div>
 </div>
 {% endfor %}
