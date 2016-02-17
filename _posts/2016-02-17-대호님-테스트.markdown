@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "대호님 테스트 포스트입니다"
-date:   2016-02-20 10:00:00 +0900
+date:   2016-02-17 12:00:00 +0900
 comments: true
 categories: android
 ---
