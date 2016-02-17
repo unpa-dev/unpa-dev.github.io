@@ -1,0 +1,15 @@
+---
+layout: default
+title: Product
+permalink: /product
+---
+
+{% for product in site.data.products %}
+<div class="unpa-product">
+    <i class="icon {{ product.icon }}"></i>
+    <div class="name">
+        {{ product.name }}
+    </div>
+    <a class="link" href="{{ product.link }}">바로가기</a>
+</div>
+{% endfor %}
