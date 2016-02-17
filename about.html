@@ -6,7 +6,11 @@ permalink: /team
 
 {% for member in site.data.members %}
 <div class="team-member">
+    {% if member.image %}
+    <img class="image" src="{{ member.image }}" alt="">
+    {% else %}
     <i class="icon ion-ios-person-outline"></i>
+    {% endif %}
     <div class="name">
         {{ member.name }}
         ({{ member.nickname }})

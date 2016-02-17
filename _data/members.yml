@@ -2,6 +2,7 @@
   role: Server
   nickname: andy
   email: andy.seo@lycl.co.kr
+  image: /assets/andy.jpg
 
 - name: 표희민
   role: Server
@@ -12,10 +13,11 @@
   role: Android
   nickname: daeho
   email: daeho.lee@lycl.co.kr
+  image: /assets/daeho.jpg
 
 - name: 조민영
   role: Android
-  nickname: jake
+  nickname: minyoung
   email: jake.jo@lycl.co.kr
 
 - name: 최원우
